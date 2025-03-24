@@ -1,0 +1,152 @@
+body {
+  font-family: "Arial", sans-serif;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+
+.container {
+  max-width: 950px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+.header-box {
+  display: flex; /*membuat elemen horizontal*/
+  justify-content: space-between; /*membuat elemen horizontal*/
+  margin-bottom: 5px;
+  line-height: 1.2; /*membuat jarak atas text*/
+}
+
+.kiri-section {
+  text-align: left;
+}
+
+.kanan-section{
+  margin-right: 115px;
+}
+
+.kiri-section p,
+.kanan-section p {
+  margin: 5px 0;
+}
+
+.kiri-section span {
+  display: inline-block;
+  width: 110px;
+}
+
+.kanan-section span {
+  display: inline-block;
+  width: 165px;
+}
+
+
+.text-kiri,
+.text-kanan {
+  margin: 0;
+  line-height: 1.5;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 6px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.mid-container {
+  display: flex;
+  justify-content: space-between;
+  /* Mengatur jarak antar elemen utama */
+  align-items: flex-start;
+  /* Meratakan elemen-elemen di bagian atas */
+}
+
+.img-container {
+  flex: 1;
+  /* Mengatur lebar elemen barcode */
+  text-align: left;
+  /* Meratakan barcode ke kiri */
+  margin-top: 7px;
+}
+
+
+.text-container {
+  flex: 5;
+  /* Mengatur lebar elemen teks */
+  display: flex;
+  justify-content: space-around;
+  /* Mengatur jarak antar elemen teks */
+}
+
+.left-text,
+.middle-text,
+.right-text {
+  text-align: center;
+  
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.matkul {
+  text-align: left;
+}
+
+.ttd-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.bold{
+  margin-top: 50px;
+}
+
+.head-container{
+  justify-content: space-between;
+  display: flex;
+  max-width: 950px; /*membuat elemen ditengah*/
+  margin: 10px auto; /*membuat elemen ditengah*/
+  margin-top: 30px;
+  padding: 8px;
+  margin: 0px,auto;
+}
+
+.img-udb img {
+  display: block; 
+}
+
+.img-krs{
+  margin-top: 15px; 
+  padding-left: 208px;
+}
+
+.text-logo {
+  flex: 6; 
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 10px;
+}
+
+.text-logo p{
+  margin: 10px 0; /* Memberikan jarak di atas dan di bawah paragraf */
+}
+
+.fakul{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.univ{
+  font-size: 28px;
+  color: rgb(14, 14, 95);
+  margin-bottom: 2px;
+}
+
